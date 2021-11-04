@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="css/style.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+		
+		//this is a var declare and value assigned
+		//var name = "Jo";
+		//document.write("Hi " + name+ "\n how are you? "); //making use of the variable
+		
+		//adding 3 numbers together then dividing by 3 to find average
+		var number1; //declaring var
+		number1 = prompt("Enter first number");
+		var number2;
+		number2 = prompt("Enter second number");
+		var number3;
+		number3 = prompt("Enter third number");	
+		
+		//parsing string to integer
+		var numberInteger1 = parseInt(number1);
+		var numberInteger2 = parseInt(number2);
+		var numberInteger3 = parseInt(number3);
+		
+		var result = numberInteger1 + numberInteger2 + numberInteger3;
+		alert("Answer: " + result);
+		
+		//divide
+		result = numberInteger1 / numberInteger2 / numberInteger3;
+		alert("Average: " + result);
+		
+		//goals scored in a match
+		var team1; //declaring var
+		var team2;
+			
+		//parsing numbers
+		team1 = parseInt(prompt("Enter first value"));
+		team2 = parseInt(prompt("Enter second value"));
+		
+		//if statement
+		if(team1 > team2){
+			//both sides are true
+			document.write("<br />Team 1 wins")
+		}else{
+			//both sides are false
+			document.write("<br />Team 2 wins");
+		}
+		
+	</script>
+  </head>
+  <body>
+	<a href="page2.html">Page 2</a>
+	
+	
+  </body>
+</html>

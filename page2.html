@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="css/style.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		
+		document.write("<h1>Hello Page 2</h1>"); //using HTML tags
+		
+		//declare var
+		var userAge;
+		var userMileage;
+		
+		//parsing numbers
+		userAge = parseInt(prompt("Enter your age"));
+		userMileage = parseInt(prompt("Enter vehicle mileage"));
+		
+		if((userAge > 21) || (userMileage < 800)){
+			//both sides true
+			document.write("<br />You're arrested");
+		}else{
+			//either side false
+			document.write("<br />You're not arrested");
+		}
+		
+		
+		
+		
+	</script>
+  </head>
+  <body>
+	<p>my paragraph</p>
+	<a href="js-index.html">Back</a>
+	
+  </body>
+</html>
